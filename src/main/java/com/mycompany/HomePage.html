@@ -13,13 +13,16 @@
                 </div>		
                 <div id="bd">
 			<h1>May I ask you for your name?</h1>
-                    <form wicket:id="form" method="GET">        
+                    <form wicket:id="form" >        
                         <label>Name</label>
                         <input type="text" name="name" value="" wicket:id="name"/><br>
                         <label>Sirname</label>
                         <input type="text" name="sirname" value="" wicket:id="sirname"/><br>
                         <input type="submit" value="That's me"/>
-                    </form>        
+                    </form>      
+                        
+                        <span wicket:id="Name" id="Name"></span>
+                        
                     <p>
                         <br> 	
                         Wicket version: <wicket:container wicket:id="version">1.5-SNAPSHOT</wicket:container>.

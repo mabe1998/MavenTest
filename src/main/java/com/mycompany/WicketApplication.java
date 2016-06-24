@@ -23,10 +23,10 @@ public class WicketApplication extends WebApplication
 		return HomePage.class;
 	}
 
-	public Class<? extends WebPage> getSuccessPage()
-	{
-		return SuccessPage.class;
-	}
+//	public Class<? extends WebPage> getSuccessPage()
+//	{
+//		return SuccessPage.class;
+//	}
         
         
         
